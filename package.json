@@ -1,0 +1,26 @@
+{
+  "name": "trace-phishing-backend",
+  "version": "1.0.0",
+  "description": "TRACE - Phishing Attack Investigation Platform (backend). Analyses email/message metadata and generates evidence-based incident reports. No database - reports are held in an in-memory store.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
